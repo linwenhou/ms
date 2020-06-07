@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/miaosha_1/miaosha_1.iml" filepath="$PROJECT_DIR$/miaosha_1/miaosha_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/miaosha_2/miaosha_1 (1).iml" filepath="$PROJECT_DIR$/miaosha_2/miaosha_1 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/miaosha_3/miaosha_3.iml" filepath="$PROJECT_DIR$/miaosha_3/miaosha_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/miaosha_idea/miaosha_idea.iml" filepath="$PROJECT_DIR$/miaosha_idea/miaosha_idea.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ms.iml" filepath="$PROJECT_DIR$/.idea/ms.iml" />
     </modules>

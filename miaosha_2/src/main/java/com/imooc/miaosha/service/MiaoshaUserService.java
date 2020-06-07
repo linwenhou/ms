@@ -82,7 +82,7 @@ public class MiaoshaUserService {
             addCookie(user, token, response);
         }
         //延长有效期
-        addCookie(user, response);
+//        addCookie(user, token,response);
         return user;
     }
 
