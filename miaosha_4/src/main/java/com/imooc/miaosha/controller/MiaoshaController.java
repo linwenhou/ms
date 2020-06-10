@@ -42,6 +42,13 @@ public class MiaoshaController {
     @Autowired
     MiaoshaService miaoshaService;
 
+    /**
+     *  QPS:1733
+     * @param model
+     * @param user
+     * @param goodsId
+     * @return
+     */
     @RequestMapping("/do_miaosha")
     public String list(Model model, MiaoshaUser user, @RequestParam("goodsId") long goodsId) {
 

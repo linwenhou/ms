@@ -8,14 +8,14 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 import static com.imooc.miaosha.result.CodeMsg.SUCCESS;
 
 @SpringBootApplication
-public class MainApplication extends SpringBootServletInitializer {
+public class MainApplication  {
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(MainApplication.class, args);
     }
-
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(MainApplication.class);
-    }
+//
+//    @Override
+//    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+//        return builder.sources(MainApplication.class);
+//    }
 }
