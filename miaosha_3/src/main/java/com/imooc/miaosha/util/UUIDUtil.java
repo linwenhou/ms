@@ -3,7 +3,7 @@ package com.imooc.miaosha.util;
 import java.util.UUID;
 
 /**
- * @author venvo
+ * @author linwenhou
  * @date 2020-05-31 22:30
  * @description
  * @modified By

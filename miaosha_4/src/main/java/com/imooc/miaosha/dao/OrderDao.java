@@ -5,7 +5,7 @@ import com.imooc.miaosha.domain.OrderInfo;
 import org.apache.ibatis.annotations.*;
 
 /**
- * @author venvo
+ * @author linwenhou
  * @date 2020-06-06 17:17
  * @description
  * @modified By

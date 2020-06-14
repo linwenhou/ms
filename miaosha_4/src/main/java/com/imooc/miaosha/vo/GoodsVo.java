@@ -5,7 +5,7 @@ import com.imooc.miaosha.domain.Goods;
 import java.util.Date;
 
 /**
- * @author venvo
+ * @author linwenhou
  * @date 2020-06-03 23:11
  * @description
  * @modified By

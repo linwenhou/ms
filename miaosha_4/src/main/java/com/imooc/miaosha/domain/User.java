@@ -1,7 +1,7 @@
 package com.imooc.miaosha.domain;
 
 /**
- * @author venvo
+ * @author linwenhou
  * @date 2020-05-31 11:16
  * @description
  * @modified By

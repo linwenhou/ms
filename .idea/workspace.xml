@@ -2,19 +2,262 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7ca5ab7-fa95-4015-a67d-ba65f21b6adf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/miaosha_4_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/miaosha_4_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/miaosha_5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/dao/MiaoshaUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/domain/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/domain/MiaoshaGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/domain/MiaoshaOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/domain/MiaoshaUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/domain/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/exception/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/BasePrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/GoodsKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/KeyPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/MiaoshaUserKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/OrderKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/RedisPoolFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/UserKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/result/CodeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/GoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/MiaoshaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/util/UUIDUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/util/UserUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/util/ValidatorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/validator/IsMobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/validator/IsMobileValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/vo/GoodsDetailVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/vo/GoodsVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/vo/LoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/goods_detail.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/img/iphonex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/img/meta10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/jquery-validation/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/jquery-validation/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/jquery-validation/localization/messages_zh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/js/md5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/static/order_detail.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/templates/goods_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/templates/goods_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/templates/miaosha_fail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/src/main/resources/templates/order_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/img/iphonex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/img/meta10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/jquery-validation/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/jquery-validation/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/jquery-validation/localization/messages_zh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/js/md5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/static/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/templates/goods_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/templates/goods_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/templates/miaosha_fail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_5/target/classes/templates/order_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/redis/BasePrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/redis/BasePrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/redis/KeyPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/redis/KeyPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/redis/OrderKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/redis/OrderKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/redis/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/redis/RedisPoolFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/redis/RedisPoolFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/redis/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/redis/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/redis/UserKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/redis/UserKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/imooc/miaosha/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/dao/MiaoshaUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/dao/MiaoshaUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/domain/MiaoshaUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/domain/MiaoshaUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/exception/GlobalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/BasePrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/BasePrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/KeyPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/KeyPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/MiaoshaUserKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/MiaoshaUserKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/OrderKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/OrderKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/RedisPoolFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/RedisPoolFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/UserKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/UserKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/util/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/util/UUIDUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/util/UUIDUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/util/ValidatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/util/ValidatorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/validator/IsMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/validator/IsMobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/validator/IsMobileValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/validator/IsMobileValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/vo/LoginVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/vo/LoginVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/dao/GoodsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/dao/MiaoshaUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/dao/MiaoshaUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/MiaoshaGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/MiaoshaGoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/MiaoshaOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/MiaoshaOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/MiaoshaUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/MiaoshaUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/OrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/OrderInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/exception/GlobalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/BasePrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/BasePrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/KeyPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/KeyPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/MiaoshaUserKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/MiaoshaUserKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/OrderKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/OrderKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/RedisPoolFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/RedisPoolFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/UserKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/redis/UserKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/service/GoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/service/GoodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/service/MiaoshaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/service/MiaoshaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/util/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/util/UUIDUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/util/UUIDUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/util/ValidatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/util/ValidatorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/validator/IsMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/validator/IsMobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/validator/IsMobileValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/validator/IsMobileValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/vo/GoodsVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/vo/GoodsVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/vo/LoginVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/vo/LoginVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/dao/GoodsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/dao/MiaoshaUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/dao/MiaoshaUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/domain/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/domain/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/domain/MiaoshaGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/domain/MiaoshaGoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/domain/MiaoshaOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/domain/MiaoshaOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/domain/MiaoshaUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/domain/MiaoshaUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/domain/OrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/domain/OrderInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/exception/GlobalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/BasePrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/BasePrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/KeyPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/KeyPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/MiaoshaUserKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/MiaoshaUserKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/OrderKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/OrderKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/RedisPoolFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/RedisPoolFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/UserKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/UserKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/service/GoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/service/GoodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/service/MiaoshaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/service/MiaoshaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util/UUIDUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util/UUIDUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util/UserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util/UserUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util/ValidatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util/ValidatorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/validator/IsMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/validator/IsMobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/validator/IsMobileValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/validator/IsMobileValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/vo/GoodsVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/vo/GoodsVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/vo/LoginVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/vo/LoginVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_idea/src/main/java/com/imooc/miaosha/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_idea/src/main/java/com/imooc/miaosha/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_idea/src/main/java/com/imooc/miaosha/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_idea/src/main/java/com/imooc/miaosha/controller/SampleController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/miaosha_1/target/" />
     <ignored path="$PROJECT_DIR$/miaosha_idea/target/" />
     <ignored path="$PROJECT_DIR$/miaosha_2/target/" />
     <ignored path="$PROJECT_DIR$/miaosha_3/target/" />
     <ignored path="$PROJECT_DIR$/miaosha_4/target/" />
+    <ignored path="$PROJECT_DIR$/miaosha_5/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,34 +291,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="miaosha: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="miaosha" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="miaosha: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="goods: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="miaosha" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="miaosha: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="miaosha_goods: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="miaosha" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="miaosha: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="miaosha_order: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="miaosha" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="miaosha: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="order_info: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -85,91 +300,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/GoodsController.java">
+        <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/resources/static/goods_detail.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="299">
+              <caret line="81" column="51" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util/UserUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+        <entry file="das://cfb1d6d8-a89e-4a66-a2b5-5d100424847f/schema/miaosha/table/miaosha_order">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="22657219-9c89-4128-a5e7-49896e1d8cc7">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/net/URLConnection.java">
+        <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/resources/static/order_detail.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11805">
-              <caret line="854" column="7" selection-start-line="854" selection-start-column="7" selection-end-line="854" selection-end-column="7" />
+            <state relative-caret-position="456">
+              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/LoginController.java">
+        <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+            <state relative-caret-position="604">
+              <caret line="86" column="57" lean-forward="true" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java">
+        <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util/MD5Util.java">
+        <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/GoodService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="390">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/resources/static/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java">
+        <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+            <state relative-caret-position="690">
+              <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-end-line="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <entry file="das://cfb1d6d8-a89e-4a66-a2b5-5d100424847f/schema/miaosha/table/miaosha_goods">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="22657219-9c89-4128-a5e7-49896e1d8cc7">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miaosha_4/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1410">
-              <caret line="94" column="65" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/MainApplication.java">
+        <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/MainApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,9 +420,26 @@
       <find>goodscount</find>
       <find>miaosha_3</find>
       <find>timeout</find>
+      <find>miaosha_4</find>
+      <find>venvo</find>
+      <find>updatePassword</find>
+      <find>stringToBean</find>
+      <find>data</find>
+      <find>My</find>
+      <find>jdbc</find>
+      <find>getById</find>
+      <find>th</find>
+      <find>详情</find>
+      <find>render</find>
+      <find>Opera</find>
+      <find>OperationLogAnnotation</find>
+      <find>@{</find>
+      <find>doMiaosha</find>
     </findStrings>
     <replaceStrings>
       <replace>miaosha_4</replace>
+      <replace>linwenhou</replace>
+      <replace>miaosha_5</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -204,25 +448,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/util/ValidatorUtil.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/domain/MiaoshaUser.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/dao/MiaoshaUserDao.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/pom.xml" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/validator/IsMobileValidator.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/vo/LoginVo.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/result/CodeMsg.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/exception/GlobleExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/exception/GobleException.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/exception/GlobleException.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/exception/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/util/UUIDUtil.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/redis/MiaoshaUserKey.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/validator/IsMobile.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java" />
         <option value="$USER_HOME$/Desktop/chinasoft-kenuo/operation_log.sql" />
         <option value="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/Goods.java" />
         <option value="$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/MiaoshaGoods.java" />
@@ -255,6 +480,25 @@
         <option value="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java" />
         <option value="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util/UserUtil.java" />
         <option value="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/BasePrefix.java" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/GoodsKey.java" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/dao/MiaoshaUserDao.java" />
+        <option value="$PROJECT_DIR$/miaosha_5/pom.xml" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/MainApplication.java" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/RedisService.java" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/MiaoshaUserKey.java" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/vo/GoodsDetailVo.java" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/resources/templates/goods_list.html" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/resources/static/js/common.js" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/GoodService.java" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/resources/static/goods_detail.htm" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/resources/static/order_detail.htm" />
+        <option value="$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java" />
       </list>
     </option>
   </component>
@@ -274,23 +518,267 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="miaosha_5" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="miaosha_5" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="miaosha_5" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="1680" />
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="MiaoshaUserService" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:5.1.44" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:5.1.44" type="70bed36:NamedLibraryElementNode" />
+              <item name="mysql-connector-java-5.1.44.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:5.1.44" type="70bed36:NamedLibraryElementNode" />
+              <item name="mysql-connector-java-5.1.44.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:5.1.44" type="70bed36:NamedLibraryElementNode" />
+              <item name="mysql-connector-java-5.1.44.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:5.1.44" type="70bed36:NamedLibraryElementNode" />
+              <item name="mysql-connector-java-5.1.44.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:5.1.44" type="70bed36:NamedLibraryElementNode" />
+              <item name="mysql-connector-java-5.1.44.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="Driver" type="1a9f42e2:ClassTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ms" type="58d84e3e:PackageViewProjectNode" />
+              <item name="miaosha_1 (1)" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="ms" type="58d84e3e:PackageViewProjectNode" />
+              <item name="miaosha_3" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="ms" type="58d84e3e:PackageViewProjectNode" />
+              <item name="miaosha_4" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +793,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/miaosha_5/src/main/resources/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -317,18 +805,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.imooc.miaosha.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util" />
+      <recent name="$PROJECT_DIR$/miaosha_5/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/miaosha_5/src/main/resources/static/js" />
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/miaosha_3/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/miaosha_3/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/miaosha_2/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -353,23 +841,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserUtil">
+  <component name="RunManager" selected="Spring Boot.MainApplication">
     <configuration name="UserUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.imooc.miaosha.util.UserUtil" />
       <module name="miaosha_4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.miaosha.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidatorUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.miaosha.util.ValidatorUtil" />
-      <module name="miaosha_1 (1)" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.imooc.miaosha.util.*" />
@@ -419,13 +894,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="miaosha_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.miaosha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.miaosha.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MainApplication" />
         <item itemvalue="Application.UserUtil" />
         <item itemvalue="Spring Boot.MainApplication (3)" />
         <item itemvalue="Spring Boot.MainApplication (2)" />
         <item itemvalue="Spring Boot.MainApplication (1)" />
-        <item itemvalue="Application.ValidatorUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -442,6 +930,8 @@
       <workItem from="1590914796793" duration="25896000" />
       <workItem from="1591192919318" duration="28229000" />
       <workItem from="1591778808670" duration="645000" />
+      <workItem from="1591779878838" duration="17835000" />
+      <workItem from="1591945509253" duration="16244000" />
     </task>
     <task id="LOCAL-00001" summary="[+]秒杀-项目搭建---集成mybatis、redis">
       <created>1590915048119</created>
@@ -485,11 +975,18 @@
       <option name="project" value="LOCAL" />
       <updated>1591519097309</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[+]JMeteer压测">
+      <created>1591780027455</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591780027455</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54770000" />
+    <option name="totallyTimeSpent" value="88849000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,7 +1000,7 @@
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="2560" height="1440" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26370135" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2084988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -513,8 +1010,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.56851643" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43138686" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36058393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34744525" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -522,20 +1019,20 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32921448" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32919708" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32846716" />
       <window_info anchor="bottom" id="MyBatis Log" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.37153286" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24980143" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.19698173" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.30262113" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
-      <window_info anchor="right" id="Database" order="7" weight="0.48212868" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.14019063" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="RestServices" order="10" weight="0.32962668" />
@@ -592,7 +1089,8 @@
     <MESSAGE value="[+]fixed" />
     <MESSAGE value="[+]秒杀哦功能" />
     <MESSAGE value="[+]如何打war包" />
-    <option name="LAST_COMMIT_MESSAGE" value="[+]如何打war包" />
+    <MESSAGE value="[+]JMeteer压测" />
+    <option name="LAST_COMMIT_MESSAGE" value="[+]JMeteer压测" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -753,17 +1251,188 @@
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/LoginController.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/GoodService.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/gedi/globalmap/operationlog/aop/OperationLogAspect.class</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/gedi/globalmap/operationlog/aop/OperationLogAspect.class</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/gedi/globalmap/operationlog/aop/OperationLogAspect.class</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/gedi/globalmap/operationlog/aop/OperationLogAspect.class</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/RedisService.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/RedisService.java</url>
+          <line>182</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/GoodsController.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/GoodsController.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/GoodsController.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/dao/GoodsDao.java</url>
           <line>28</line>
           <properties class="com.imooc.miaosha.dao.GoodsDao" method="reduceStock" />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/resources/static/js/common.js</url>
+          <line>10</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/miaosha_5/src/main/resources/static/js/common.js</url>
+          <line>11</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>JSON.parseObject(str)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str.toCharArray()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>JSON.toJavaObject(JSON.parseObject(str), clazz)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>jedis.get(realKey)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>redisService.get(GoodsKey.getGoodsList, &quot;&quot;, String.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>co.getOutputStream()</expression-string>
         <language-id>JAVA</language-id>
@@ -774,515 +1443,324 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>co.setRequestMethod(&quot;POST&quot;);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(HttpURLConnection)url.openConnection()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>g</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>goodsDao.reduceStock(g);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>goods.getId()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>goodService.reduceStock(goods);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>orderService.getMiaoshaOrderByUserIdGoodsId(user.getId(), goodsId)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>miaoshaStatus</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://cfb1d6d8-a89e-4a66-a2b5-5d100424847f/schema/miaosha/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="61c1cb89-29ee-4556-90e3-99ba6ab94b4c">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java">
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/gedi/globalmap/operationlog/annotation/OperationLogAnnotation.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/gedi/globalmap/operationlog/aop/OperationLogAspect.class" />
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/repository/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/support/HandlerMethodArgumentResolverComposite.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_2/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="84" column="42" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/resources/templates/hello.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="89" column="54" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="111" selection-start-line="15" selection-start-column="111" selection-end-line="15" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="274">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/apache-maven-3.6.1/repository/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        <state relative-caret-position="221">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cfb1d6d8-a89e-4a66-a2b5-5d100424847f/console_1.sql">
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/repository/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="120" selection-start-line="56" selection-start-column="120" selection-end-line="56" selection-end-column="120" />
+        <state relative-caret-position="251">
+          <caret line="530" selection-start-line="530" selection-end-line="530" />
         </state>
       </provider>
     </entry>
-    <entry file="das://cfb1d6d8-a89e-4a66-a2b5-5d100424847f/schema/miaosha/table/miaosha_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="61c1cb89-29ee-4556-90e3-99ba6ab94b4c">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cfb1d6d8-a89e-4a66-a2b5-5d100424847f/schema/miaosha/table/goods">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="61c1cb89-29ee-4556-90e3-99ba6ab94b4c">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/Goods.java">
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/repository/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#1464#1465#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="409" column="19" selection-start-line="409" selection-start-column="19" selection-end-line="409" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/resources/templates/goods_detail.html">
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/gedi/globalmap/operationlog/annotation/MyUserInfo.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/gedi/globalmap/operationlog/aop/MyUserInfoAspect.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/application.yml" />
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/repository/ognl/ognl/3.0.8/ognl-3.0.8.jar!/ognl/ASTAdd.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="90">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/result/CodeMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/dao/MiaoshaUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/resources/templates/miaosha_fail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cfb1d6d8-a89e-4a66-a2b5-5d100424847f/schema/miaosha/table/miaosha_order">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="61c1cb89-29ee-4556-90e3-99ba6ab94b4c">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/service/MiaoshaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/dao/GoodsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="78" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/resources/templates/goods_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/vo/GoodsVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/service/GoodService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/exception/GlobalException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/exception/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/dao/OrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cfb1d6d8-a89e-4a66-a2b5-5d100424847f/schema/miaosha/table/order_info">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="61c1cb89-29ee-4556-90e3-99ba6ab94b4c">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/resources/templates/order_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="37" selection-start-line="56" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cfb1d6d8-a89e-4a66-a2b5-5d100424847f/schema/miaosha/table/miaosha_goods">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="61c1cb89-29ee-4556-90e3-99ba6ab94b4c">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/domain/OrderInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1348#1349#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1440#1441#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1551#1552#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
-            <element signature="e#1667#1668#0" expanded="true" />
-            <element signature="e#1700#1701#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
-            <element signature="e#1826#1827#0" expanded="true" />
-            <element signature="e#1856#1857#0" expanded="true" />
-            <element signature="e#1900#1901#0" expanded="true" />
-            <element signature="e#1938#1939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_3/src/main/java/com/imooc/miaosha/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/vo/GoodsVo.java">
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/repository/com/alibaba/fastjson/1.2.38/fastjson-1.2.38.jar!/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/resources/application.properties">
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/repository/com/alibaba/druid/1.0.5/druid-1.0.5.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/META-INF/MANIFEST.MF" />
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/META-INF/maven/com.gedi.globalmap/globalmap-common/pom.properties" />
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/META-INF/maven/com.gedi.globalmap/globalmap-common/pom.xml" />
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/gedi/globalmap/operationlog/annotation/Comment.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/gedi/globalmap/operationlog/dao/OperationLogRepository.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common-1.0-SNAPSHOT.jar!/gedi/globalmap/operationlog/entity/OperationLog.class" />
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/Column.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        <state relative-caret-position="225">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/List.java">
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common.jar!/gedi/globalmap/operationlog/annotation/MyUserInfo.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        <state relative-caret-position="150">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/redis/RedisService.java">
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common.jar!/gedi/globalmap/operationlog/dao/OperationLogRepository.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/DemoController.java">
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/domain/MiaoshaUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util/UserUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/net/URLConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11805">
-          <caret line="854" column="7" selection-start-line="854" selection-start-column="7" selection-end-line="854" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/util/MD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="225">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/miaosha_4/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="94" column="65" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
+        <state relative-caret-position="111">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/repository/com/alibaba/fastjson/1.2.38/fastjson-1.2.38.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="707" column="24" selection-start-line="707" selection-start-column="24" selection-end-line="707" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/globalmap-common.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/MainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        <state relative-caret-position="240">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_4/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java">
+    <entry file="file://$USER_HOME$/apache-maven-3.6.1/repository/mysql/mysql-connector-java/5.1.44/mysql-connector-java-5.1.44.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/repository/mysql/mysql-connector-java/5.1.44/mysql-connector-java-5.1.44.jar!/com/mysql/jdbc/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/MiaoshaUserKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/redis/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1652">
+          <caret line="200" column="19" selection-start-line="200" selection-start-column="19" selection-end-line="200" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/dao/MiaoshaUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/vo/GoodsDetailVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/resources/templates/goods_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/resources/templates/goods_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/MiaoshaUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/service/GoodService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cfb1d6d8-a89e-4a66-a2b5-5d100424847f/schema/miaosha/table/miaosha_goods">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="22657219-9c89-4128-a5e7-49896e1d8cc7">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/resources/static/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/resources/static/order_detail.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/resources/static/goods_detail.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="81" column="51" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cfb1d6d8-a89e-4a66-a2b5-5d100424847f/schema/miaosha/table/miaosha_order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="22657219-9c89-4128-a5e7-49896e1d8cc7">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="86" column="57" lean-forward="true" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_5/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -1292,10 +1770,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>miaosha_4:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1338,12 +1818,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>miaosha_4</last-edited>
+          <last-edited>miaosha_5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

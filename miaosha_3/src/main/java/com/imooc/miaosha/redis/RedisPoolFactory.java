@@ -7,7 +7,7 @@ import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
 /**
- * @author venvo
+ * @author linwenhou
  * @date 2020-05-31 15:53
  * @description
  * @modified By

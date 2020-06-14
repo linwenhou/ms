@@ -1,7 +1,7 @@
 package com.imooc.miaosha.redis;
 
 /**
- * @author venvo
+ * @author linwenhou
  * @date 2020-05-31 16:08
  * @description
  * @modified By

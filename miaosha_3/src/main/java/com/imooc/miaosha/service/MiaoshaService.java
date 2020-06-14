@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * @author venvo
+ * @author linwenhou
  * @date 2020-06-06 12:10
  * @description
  * @modified By
@@ -33,6 +33,6 @@ public class MiaoshaService {
         goodService.reduceStock(goods);
         //order_info miaosha_order
         return orderService.createOrder(user, goods);
-        
+
     }
 }

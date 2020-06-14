@@ -3,7 +3,7 @@ package com.imooc.miaosha.exception;
 import com.imooc.miaosha.result.CodeMsg;
 
 /**
- * @author venvo
+ * @author linwenhou
  * @date 2020-05-31 22:14
  * @description
  * @modified By

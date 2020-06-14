@@ -3,7 +3,7 @@ package com.imooc.miaosha.domain;
 import java.util.Date;
 
 /**
- * @author venvo
+ * @author linwenhou
  * @date 2020-06-03 23:02
  * @description
  * @modified By

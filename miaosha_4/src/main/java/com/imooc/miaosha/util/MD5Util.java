@@ -3,7 +3,7 @@ package com.imooc.miaosha.util;
 import org.apache.commons.codec.digest.DigestUtils;
 
 /**
- * @author venvo
+ * @author linwenhou
  * @date 2020-05-31 17:48
  * @description
  * @modified By
