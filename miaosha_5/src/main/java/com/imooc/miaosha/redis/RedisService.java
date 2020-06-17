@@ -21,27 +21,21 @@ public class RedisService {
     @Autowired
     JedisPool jedisPool;
 
-    /**
-     * 获取单个对象
-     *
-     * @param prefix
-     * @param key
-     * @param clazz
-     * @param <T>
-     * @return
-     */
-    public <T> T get(KeyPrefix prefix, String key, Class<T> clazz) {
 
+
+    /**
+     * 获取当个对象
+     * */
+    public <T> T get(KeyPrefix prefix, String key,  Class<T> clazz) {
         Jedis jedis = null;
         try {
-            jedis = jedisPool.getResource();
-
+            jedis =  jedisPool.getResource();
             //生成真正的key
-            String realKey = prefix.getPrefix() + key;
-            String s = jedis.get(realKey);
-            T t = stringToBean(s, clazz);
+            String realKey  = prefix.getPrefix() + key;
+            String  str = jedis.get(realKey);
+            T t =  stringToBean(str, clazz);
             return t;
-        } finally {
+        }finally {
             returnToPool(jedis);
         }
     }

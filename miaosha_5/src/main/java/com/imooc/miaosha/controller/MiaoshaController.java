@@ -65,7 +65,7 @@ public class MiaoshaController {
     @RequestMapping(value = "/do_miaosha", method = RequestMethod.POST)
     @ResponseBody
     public Result<OrderInfo> list(Model model, MiaoshaUser user, @RequestParam("goodsId") long goodsId) {
-
+        System.out.println("开始秒杀！！！！！");
         model.addAttribute("user", user);
         if (user == null) {
             return Result.error(CodeMsg.SESSION_ERROR);
@@ -73,30 +73,19 @@ public class MiaoshaController {
 
         //判断库存
         GoodsVo goods = goodService.getGoodsVoByGoodsId(goodsId);
-
-        if (goods.getStockCount() <= 0) {
-
+        int stock = goods.getStockCount();
+        if (stock <= 0) {
             return Result.error(CodeMsg.MIAO_SHA_OVER);
-//            model.addAttribute("errmsg", CodeMsg.MIAO_SHA_OVER.getMsg());
-//            return "miaosha_fail";
         }
         //判断是否秒杀到了
         MiaoshaOrder miaoshaOrder = orderService.getMiaoshaOrderByUserIdGoodsId(user.getId(), goodsId);
 
         if (miaoshaOrder != null) {
-//            model.addAttribute("errmsg", CodeMsg.REPEATE_MIAOSHA.getMsg());
-//            return "miaosha_fail";
-
             return Result.error(CodeMsg.REPEATE_MIAOSHA);
         }
 
         //减库存  下订单  写入秒杀订单
-
         OrderInfo orderInfo = miaoshaService.miaosha(user, goods);
-//        model.addAttribute("orderInfo", orderInfo);
-//        model.addAttribute("goods", goods);
-
-
         return Result.success(orderInfo);
 
     }
