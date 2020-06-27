@@ -144,6 +144,29 @@ public class RedisService {
     }
 
     /**
+     * 增加值
+     *
+     * @param prefix
+     * @param key
+     * @param <T>
+     * @return
+     */
+    public <T> Long incr(KeyPrefix prefix, String key) {
+        Jedis jedis = null;
+        try {
+            jedis = jedisPool.getResource();
+            //生成真正的key
+            String realKey = prefix.getPrefix() + key;
+            return jedis.incr(realKey);
+        } finally {
+            returnToPool(jedis);
+        }
+
+    }
+
+
+
+    /**
      * 减少值
      *
      * @param prefix
@@ -258,7 +281,6 @@ public class RedisService {
         }
 
     }
-
 
 
 }
